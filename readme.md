@@ -1,5 +1,10 @@
 # Latex Resume copied from overleaf
 
+## Setup
+
+- `git clone --recurse-submodule <git_url>`
+- To format the tex file use `latexindent.pl/latexindent.pl --overwrite main.tex`, Incase of error check [latexindent-docs](https://latexindentpl.readthedocs.io/en/latest/sec-introduction.html#quick-start)
+
 ## Pre-requisite
 - docker
 - docker volume `miktex` for caching tex packages 
